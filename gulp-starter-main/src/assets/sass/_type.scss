@@ -44,6 +44,6 @@ a:visited{
     color: #0e1f40;
 }
 .card:hover{
+    transition: 0.3s ease;
     scale: 1.1;
-    transition: 0.3s ease-in-out;
 }
