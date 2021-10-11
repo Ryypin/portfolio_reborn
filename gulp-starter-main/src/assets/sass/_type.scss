@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Teko', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+}
+@font-face {
+    font-family: 'Open Sans', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+h1, h2{
+    text-align: center;
+    margin: 0;
+}
+.title__big{
+    color: white;
+    font-family: 'Teko', cursive;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.title__big--black{
+    color: black;
+    margin-bottom: 20px;
+}
+.head__para{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', cursive;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+@media(min-width: 800px){
+    .title__big--black{
+        margin-bottom: 50px;
+    }
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: #0e1f40;
+}
+.card:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}

@@ -1,9 +1,5 @@
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-  background-color: lime;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+@import '_normalize.css';
+@import '_nav.scss';
+@import '_type.scss';
+@import '_card.scss';

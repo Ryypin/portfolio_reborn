@@ -1,0 +1,51 @@
+.nav__logo{
+    height: 50px;
+    fill: white;
+}
+body{
+    margin: 0;
+    height: 2000px;
+}
+.head{
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/travail_mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    margin-bottom: 50px;  
+    &__block{
+        margin-top: 25vh;
+        height: fit-content;
+    }
+    &__soc{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+.head__socEl{
+    height: 50px;
+    width: 50px;
+    margin: 0px 25px 0px 25px;
+}
+.head__socA{
+    padding-top: 25px;
+}
+.socLogo{
+    height: 35px;
+    width: 35px;
+}
+@media(min-width: 1000px){
+    .head{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/travail_tablet.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+    }
+
+}
